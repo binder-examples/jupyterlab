@@ -1,5 +1,7 @@
 # JupyterLab + Binder
 
+[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/jupyterlab/master)
+
 Demonstrating how to get JupyterLab working with Binder.
 
 Currently, you may enable JupyterLab in Binder with the following steps:
@@ -10,6 +12,3 @@ Currently, you may enable JupyterLab in Binder with the following steps:
 
 This repository installs several JupyterLab extensions via a `postBuild` script, allowing
 you to use JupyterLab's extensions and widgets functionality.
-
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/jupyterlab/master)
-
