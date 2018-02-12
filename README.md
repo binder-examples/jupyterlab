@@ -9,3 +9,6 @@ You can enable JupyterLab for a repository in Binder with the following steps:
 1. Install the required JupyterLab extensions (see how it is done in this repository)
 2. Configure the "Path to a notebook file" dropdown to "URL" and set the value to `lab`
 3. That's it!
+
+For a more complete demo of JupyterLab using Binder, see the
+[JupyterLab Demo](https://github.com/jupyterlab/jupyterlab-demo).
