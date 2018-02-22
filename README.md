@@ -1,14 +1,36 @@
 # JupyterLab + Binder
 
-[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binder-examples/jupyterlab/master?urlpath=lab)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binder-examples/jupyterlab/master?urlpath=lab/tree/index.ipynb)
 
-Demonstrate how to use JupyterLab with Binder.
+JupyterLab is packaged with Binder repositories by default. In order to
+run a JupyterLab session, you have two options:
 
-You can enable JupyterLab for a repository in Binder with the following steps:
+## Start JupyterLab after you start your Binder
 
-1. Install the required JupyterLab extensions (see how it is done in this repository)
-2. Configure the "Path to a notebook file" dropdown to "URL" and set the value to `lab`
+Do do the following:
+
+1. Launch a Binder instance (e.g., by clicking the Binder badge)
+2. Replace `tree` at the end of your URL with `lab`.
 3. That's it!
+
+## Create a Binder link that points to JupyterLab
+
+You can also create a Binder link that points to JupyterLab by adding the following
+to the end of your link:
+
+`?urlpath=lab`
+
+You can point to a specific file using JupterLab by including a file path
+beginning with `tree/` to the end of `urlpath`, like so:
+
+`?urlpath=lab/tree/path/to/my/notebook.ipynb`
+
+For example, the Binder badge above goes to the following URL:
+
+`http://mybinder.org/v2/gh/binder-examples/jupyterlab/master?urlpath=lab/tree/index.ipynb`
+
+Note: this repository also installs several JupyterLab extensions via a `postBuild` script, allowing
+you to use JupyterLab's extensions and widgets functionality.
 
 For a more complete demo of JupyterLab using Binder, see the
 [JupyterLab Demo](https://github.com/jupyterlab/jupyterlab-demo).
