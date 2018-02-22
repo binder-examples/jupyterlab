@@ -5,7 +5,7 @@
 JupyterLab is packaged with Binder repositories by default. In order to
 run a JupyterLab session, you have two options:
 
-## Start JupyterLab after you start your Binder
+### Start JupyterLab after you start your Binder
 
 Do do the following:
 
@@ -13,7 +13,7 @@ Do do the following:
 2. Replace `tree` at the end of your URL with `lab`.
 3. That's it!
 
-## Create a Binder link that points to JupyterLab
+### Create a Binder link that points to JupyterLab
 
 You can also create a Binder link that points to JupyterLab by adding the following
 to the end of your link:
