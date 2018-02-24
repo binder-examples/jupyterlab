@@ -7,7 +7,7 @@ run a JupyterLab session, you have two options:
 
 ## Start JupyterLab after you start your Binder
 
-Do do the following:
+Do the following:
 
 1. Launch a Binder instance (e.g., by clicking the Binder badge)
 2. Replace `tree` at the end of your URL with `lab`.
