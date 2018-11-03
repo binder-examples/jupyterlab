@@ -33,5 +33,5 @@ Note: this repository also installs several JupyterLab extensions via a `postBui
 you to use JupyterLab's extensions and widgets functionality.
 
 For a more complete demo of JupyterLab using Binder, see the
-[JupyterLab Demo](https://github.com/jupyterlab/jupyterlab-demo).
+[JupyterLab Demo](https://github.com/jupyterlab/jupyterlab-demo). 
  
